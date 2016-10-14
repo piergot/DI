@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 12</title>
+    <style media="screen">
+
+      li{
+        background: #F4F4F4;
+        border-bottom: 1px solid #7C7C7C;
+        text-indent: 20px;
+      }
+
+      ul{
+        border: 1px solid #7C7C7C;
+        border-bottom: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 180px;
+      }
+
+      a{
+        color: #333;
+        display: block;
+        padding: 3px 0 5px 5px;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: green;
+        background-color: lightgrey;
+      }
+
+      li:hover ul{
+        display: block;
+        border-top: 1px solid;
+        border-color: #7C7C7C;
+      }
+
+      ul.sublista{
+        display: none;
+        border: 0;
+
+        margin: 0;
+        width: 180px;
+        list-style: disc;
+        list-style-position: inside;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">Elemento 1</a>
+          <ul class="sublista">
+            <li><a href="#">Elemento A</a></li>
+            <li><a href="#">Elemento B</a></li>
+            <li><a href="#">Elemento C</a></li>
+          </ul>
+      </li>
+      <li><a href="#">Elemento 2</a></li>
+      <li><a href="#">Elemento 3</a></li>
+      <li><a href="#">Elemento 4</a>
+        <ul class="sublista">
+          <li><a href="#">Elemento A</a></li>
+          <li><a href="#">Elemento B</a></li>
+          <li><a href="#">Elemento C</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Elemento 5</a></li>
+      <li><a href="#">Elemento 6</a></li>
+    </ul>
+  </body>
+</html>

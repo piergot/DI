@@ -1,0 +1,26 @@
+input, textarea, #prov{
+  border-radius: 6px;
+}
+body{
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: .4em;
+}
+div label{
+  width: 10%;
+  float: left;
+}
+input:focus{
+  border-color: purple;
+  background: lightgrey;
+}
+p{
+  border: black 1px dotted;
+  font-style: italic;
+  padding:: 0.25em;
+}
+textarea{
+  height:40px;
+  overflow-y:scroll;
+  overflow-x: scroll;
+}

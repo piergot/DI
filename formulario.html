@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formulariostyle.css">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Inscripción</legend>
+          <fieldset>
+            <legend>Información personal</legend>
+            <div>
+              <label for="nombre">Nombre*</label>
+              <input type="text" id="firstname" placeholder="Introducir nombre" autofocus required><br>
+            </div>
+            <br>
+            <div>
+              <label for="apellido">Apellidos*</label>
+              <input type="text" id="lastname" placeholder="Introducir apellido"  required><br>
+            </div>
+            <br>
+            <div>
+              <label for="Email">Email*</label>
+              <input type="email" id="email" placeholder="Introducir correo" required><br>
+            </div>
+            <br>
+            <div>
+              <label for="sexo">Sexo</label>
+              <input type="radio" id="sex" value="masc">Hombre
+              <input type="radio" id="sex" value="fem">Mujer<br>
+            </div>
+            <br>
+            <div>
+              <label for="date">Fecha de nacimiento</label>
+              <input type="date" id="bday" required><br>
+            </div>
+            <br>
+            <div>
+              <label for="prov">Provincia</label>
+              <select id="prov">
+                <option value="blank">
+                <option value="val">Valencia
+                <option value="al">Alicante
+                <option value="cas">Castellón
+              </select><br>
+            </div>
+            <br>
+            <div>
+              <label for="poblacion">Población</label>
+              <input type="text" id="poblacion" placeholder="Introducir población"><br>
+            </div>
+            <br>
+            <div>
+              <label for="tel">Teléfono</label>
+              <input type="text" id="tel" placeholder="Introducir teléfono"><br>
+            </div>
+            <br>
+            <div>
+              <label for="nombre">Motivo de inscripción</label><br>
+              <textarea id="mot" rows="8" cols="40" placeholder="Introducir motivo de inscripción"></textarea><br>
+            </div>
+            <br>
+            <div>
+              <label for="color">Color</label>
+              <input type="color" id="color"><br>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Creación de usuario</legend>
+              <div>
+                <label for="username">Nombre de usuario*</label>
+                <input type="text" id="username" placeholder="Introducir usuario" required><br>
+              </div>
+              <br>
+              <div>
+                <label for="password">Contraseña*</label>
+                <input type="password" id="password" maxlength="8"  size="10" placeholder="Introducir contraseña" required><br>
+              </div>
+              <br>
+              <div>
+                <label for="password">Repite contraseña*</label>
+                <input type="password" id="password" maxlength="8"  size="10" placeholder="Volver a introducir contraseña" required><br>
+              </div>
+            </fieldset>
+              <div>
+                <input type="checkbox" name="copias" value="copias">Deseo recibir copias de los mensajes del foro en mi correo electrónico<br>
+                <input type="checkbox" name="copias" value="copias">Deseo recibir notificaciones de próximos eventos en mi correo electrónico<br>
+              </div>
+              <br>
+              <button>Confirmar registro</button>
+              <p>
+                Nota: los campos marcados con "*" son obligatorios.
+              </p>
+          </fieldset>
+    </form>
+  </body>
+</html>
