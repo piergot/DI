@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Ejemplo de HTML5">
+		<meta name="keywords" content="HTML5, CSS3, JavaScript">
+		<title>Título de la web</title>
+		<link rel="stylesheet" href="practica1.css">
+	</head>
+	<body>
+		<div id="container">
+			<header id="cabecera">
+        <img id="imagenbanner" src="imagenpratica.png" alt="" />
+				<h1>Cabecera del sitio web</h1>
+			</header>
+
+			<nav id="menu">
+				<ul>
+					<li><a href="#">inicio</a>
+            <ul>
+              <li><a href="#">Opcion 1</a></li>
+              <li><a href="#">Opcion 2</a></li>
+              <li><a href="#">Opcion 3</a></li>
+            </ul>
+          </li>
+					<li><a href="#">categoría 1</a>
+						<ul>
+							<li><a href="#">Opcion 4</a></li>
+							<li><a href="#">Opcion 5</a></li>
+							<li><a href="#">Opcion 6</a></li>
+            </ul>
+					</li>
+					<li><a href="#">categoría 2</a>
+						<ul>
+							<li><a href="#">Opcion 7</a></li>
+              <li><a href="#">Opcion 8</a></li>
+              <li><a href="#">Opcion 9</a></li>
+						</ul>
+					</li>
+					<li><a href="#">contacto</a>
+						<ul>
+							<li><a href="#">Opcion 12</a>
+								<ul class="nivel2">
+									<li><a href="#">Opcion 10</a></li>
+									<li><a href="#">Opcion 11</a></li>
+									<li><a href="#">Opcion 12</a></li>
+								</ul>
+							</li>
+              <li><a href="#">Opcion 10</a></li>
+              <li><a href="#">Opcion 11</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<section id="seccion">
+				<article>
+					<header>
+						<hgroup>
+							<h1>Título de la primera entrada</h1>
+							<h2>Subtítulo de la primera entrada</h2>
+						</hgroup>
+						<time datetime="2016-10-10" pubdate>publicado 10-10-2016</time>
+					</header>
+
+				   Este es el texto de mi primera entrada
+					<figure>
+						<img src="http://bloginteligenciacolectiva.com/wp-content/uploads/2013/08/blogs-bloguers.jpg">
+						<figcaption>
+							Esta es el caption de la imagen
+						</figcaption>
+					</figure>
+					<footer>
+						<p>comentarios (0)</p>
+					</footer>
+				</article>
+				<article>
+					<header>
+						<hgroup>
+							<h1>Título de la segunda entrada</h1>
+							<h2>Subtítulo de la segunda entrada</h2>
+						</hgroup>
+						<time datetime="2016-10-10" pubdate>publicado 10-10-2016</time>
+					</header>
+						   Este es el texto de mi segunda entrada
+					<footer>
+						<p>comentarios (0)</p>
+					</footer>
+				</article>
+			</section>
+			<aside id="columna">
+        <ul>
+          <li><blockquote><a href="#">Post 1</a></blockquote>
+            <ul class="sublista">
+              <li><a href="#">Post 1-1</a></li>
+              <li><a href="#">Post 1-2</a></li>
+              <li><a href="#">Post 1-3</a></li>
+              <li><a href="#">Post 1-4</a></li>
+            </ul>
+          </li>
+  				<li><blockquote><a href="#">Post 2</a></blockquote>
+            <ul class="sublista">
+             <li><a href="#">Post 2-1</a></li>
+             <li><a href="#">Post 2-2</a></li>
+             <li><a href="#">Post 2-3</a></li>
+             <li><a href="#">Post 2-4</a></li>
+           </ul>
+         </li>
+        </ul>
+			</aside>
+			<footer id="pie">
+				Derechos Reservados &copy; 2016-2020
+			</footer>
+		</div>
+	</body>
+</html>
