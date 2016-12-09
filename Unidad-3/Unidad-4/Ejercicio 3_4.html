@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?x25758" rel="stylesheet">
+    <style media="screen">
+      *{
+      margin: 0;
+      padding: 0;
+      }
+
+      header{
+        display: table;
+        width: 100%;
+      }
+
+      h1{
+        padding-top: 25px;
+      }
+
+      img{
+        width: 100%;
+      }
+
+      #flecha{
+        float:left;
+        width: 5%;
+        height: 5%;
+        padding: 10px;
+      }
+
+      .head{
+        padding: 30px;
+      }
+
+      article {
+          float: left;
+          display: block;
+          width: 50%;
+      }
+
+      .telefono{
+        width: 130px;
+        height: 200px;
+        background: transparent url("iconninja-sprites.png") no-repeat;
+        background-position: 0px 0px;
+        transition: background-position .1s ease-out;
+        float: left;
+      }
+
+      .telefono:hover {
+        opacity: .5;
+      }
+
+      .correo{
+        width: 135px;
+        height: 200px;
+        background: transparent url("iconninja-sprites.png") no-repeat;
+        background-position: -130px 0px;
+        transition: background-position .1s ease-out;
+        float: left;
+      }
+
+      .correo:hover {
+        opacity: .5;
+      }
+
+      .iconos a {
+        color: white;
+        font-size: 50px;
+      }
+
+      .iconos{
+        float:right;
+        padding: 20px;
+      }
+
+      .fa-facebook {
+        padding: 15px;
+        background: #3B5998
+      }
+
+      .fa-linkedin {
+        padding: 15px;
+        background: #4875B4
+      }
+
+      .fa-twitter {
+        padding: 15px;
+        background: #33CCFF
+      }
+
+      .fa-google-plus {
+        padding: 15px;
+        background: #C63D2D
+      }
+
+      i:hover {
+        opacity: .5;
+      }
+
+
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+          .iconos a {
+              color: white;
+              font-size: 35px;
+          }
+      }
+      @media screen and (max-width: 767px) {
+          .iconos a {
+              color: white;
+              font-size: 25px;
+          }
+      }
+
+      video{
+        width:50%;
+        height:50%;
+        max-width: 640px;
+      }
+
+      .delimitador{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 20px;
+      }
+
+      .contenedor{
+          height:0px;
+          width:100%;
+          padding-top:56.25%;
+          position:relative;
+      }
+
+      .contenedor iframe{
+          position:absolute;
+          height:100%;
+          width:100%;
+          top:0px;
+          left:0px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <img id="flecha" src="flecha.svg" alt="">
+      <h1>DISEÑO GRÁFICO PARA WEB RESPONSIVE</h1>
+      <div class="iconos">
+        <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a>
+        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="http://plus.google.com/"><i class="fa fa-google-plus"></i></a>
+      </div>
+    </header>
+    <section>
+      <div class="delimitador">
+        <div class="contenedor">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/nMO5Ko_77Hk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <article>
+        <div>
+          <video src="video.mp4" controls>
+        </div>
+      </article>
+      <article>
+        <audio autoplay controls>
+          <source src="Aretha.ogg" type="audio/ogg">
+          <source src="Aretha.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+      </article>
+      <article class="gif">
+        <a class='telefono' href="tel:+1-234-234-564"></a>
+        <a class='correo' href="#"></a>
+      </article>
+
+    </section>
+  </body>
+</html>
