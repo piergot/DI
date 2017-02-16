@@ -1,0 +1,17 @@
+{
+  "categorias":[
+    {"nombre" : "primeros",
+      "platos" : [
+        {"nombre" : "tortilla", "desc": "muy rica"},
+        {"nombre" : "gambas", "desc" : "ñam", "origen" : "Denia"}
+      ]
+    },
+    {"nombre" : "segundos",
+      "platos" : [
+        {"nombre" : "sopa", "desc": "con huevo"},
+        {"nombre" : "cocido", "desc" : "con mucha patata"},
+        {"nombre" : "espagueti a la carbonara", "desc" : "pringosos"}
+      ]
+    }
+  ]
+}

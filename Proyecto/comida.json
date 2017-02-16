@@ -1,0 +1,66 @@
+{"categorias":[{
+
+    "primeros":[{
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    }
+  ],
+  "principales":[{
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    },
+    {
+        "nombre":"",
+        "descripcion":"rojo",
+        "ingredientes":"#f00",
+        "precio": ""
+    }
+  ],
+ }]
+}
